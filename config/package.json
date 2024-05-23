@@ -1,5 +1,5 @@
 {
-  "name": "@order/config",
+  "name": "vi-configs",
   "description": "package config connection",
   "version": "1.0.0",
   "main": "./build/index.js",
