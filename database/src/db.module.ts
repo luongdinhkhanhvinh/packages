@@ -1,4 +1,4 @@
-import { ConfigDatabase, ConfigModule, ConfigService } from '@order/config';
+import { ConfigDatabase, ConfigModule, ConfigService } from 'vi-configs';
 import { Module } from '@nestjs/common';
 import { DbConfig } from './db.interface';
 import { TypeOrmModule, TypeOrmModuleOptions } from '@nestjs/typeorm';

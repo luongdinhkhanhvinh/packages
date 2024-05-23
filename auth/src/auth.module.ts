@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { PassportModule } from '@nestjs/passport';
-import { ConfigModule } from '@order/config';
+import { ConfigModule } from 'vi-configs';
 import { FirebaseAuthStrategy } from './auth.strategy';
 
 @Module({

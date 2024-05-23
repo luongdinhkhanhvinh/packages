@@ -1,6 +1,6 @@
 {
   "name": "vi-auths",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "scripts": {
@@ -23,10 +23,10 @@
   },
   "dependencies": {
     "@nestjs/passport": "^10.0.3",
-    "@order/config": "file:../config",
     "firebase-admin": "^12.1.1",
     "passport-firebase-jwt": "^1.2.1",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "vi-configs": "^1.0.0"
   },
   "devDependencies": {
     "@nestjs/common": "^10.3.8",

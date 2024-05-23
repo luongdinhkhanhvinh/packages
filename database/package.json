@@ -1,6 +1,6 @@
 {
   "name": "vi-databases",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "scripts": {
@@ -41,7 +41,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@order/config": "file:../config",
-    "@order/logger": "file:../logger"
+    "vi-configs": "^1.0.0",
+    "vi-logger": "^1.0.1"
   }
 }
